@@ -18,7 +18,7 @@ const Login = () => {
       // ⚠️ Mặc định giả lập password: 123456
       if (user && password === "123456") {
         localStorage.setItem("user", JSON.stringify(user));
-        navigate("/users");
+        navigate("/");
       } else {
         setError("Sai email hoặc mật khẩu.");
       }
