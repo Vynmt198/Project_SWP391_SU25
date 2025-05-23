@@ -5,6 +5,7 @@ import App from './App';
 import Login from './loginpages/login';
 import HomePage from './homepages/HomePages';
 import Signup from './signuppages/Signup';
+import ContactPage from './contactpages/ContactPage';
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <BrowserRouter>
@@ -13,6 +14,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Route path="/login" element={<Login/>} />
       <Route path="/" element={<HomePage/>} />
       <Route path="/*" element={<App />} />
+      <Route path="/contact" element={<ContactPage  />} />
     </Routes>
   </BrowserRouter>
 );

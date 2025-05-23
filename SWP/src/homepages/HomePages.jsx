@@ -12,7 +12,7 @@ export default function HomePage() {
         </div>
         <nav className="nav-links">
           <a href="/login">Đăng nhập</a>
-          <a href="/register">Đăng ký</a>
+          <a href="/signup">Đăng ký</a>
         </nav>
       </header>
 
