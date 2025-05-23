@@ -1,0 +1,39 @@
+.about-container {
+  padding: 2rem;
+  max-width: 960px;
+  margin: auto;
+  font-family: "Segoe UI", sans-serif;
+  color: #333;
+  line-height: 1.6;
+}
+
+.about-hero {
+  text-align: center;
+  margin-bottom: 3rem;
+  background: linear-gradient(to right, #f06292, #ba68c8);
+  color: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.about-hero h1 {
+  font-size: 2.4rem;
+  margin-bottom: 1rem;
+}
+
+.about-hero p {
+  font-size: 1.1rem;
+}
+
+.about-content h2 {
+  margin-top: 2rem;
+  font-size: 1.4rem;
+  color: #d32f2f;
+}
+
+.about-content p {
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  color: #444;
+}
